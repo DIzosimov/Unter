@@ -5,6 +5,9 @@
 # files.
 
 require 'cucumber/rails'
+require 'coveralls'
+
+Coveralls.wear_merged!('rails')
 
 # frozen_string_literal: true
 
